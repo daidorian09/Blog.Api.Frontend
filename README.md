@@ -1,4 +1,4 @@
-## Blog.Api Setup
+## Blog.Api.Frontend Setup
 
  - Step 1:  Clone project from github
  - Step 2:  Install npm dependencies
