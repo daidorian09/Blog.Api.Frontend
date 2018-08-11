@@ -33,7 +33,7 @@ class UpdatePost extends Component {
         this.onCheck = this.onCheck.bind(this)
     }
 
-    componentWillMount() {
+    componentDidMount() {
         const postId = this.props.match.params.postId.trim()
         this.props.getPostById(postId)
     }
@@ -188,7 +188,7 @@ class UpdatePost extends Component {
                 <input type="submit" value="Submit" className="btn btn-info btn-block mt-4" />
               </form>
               {
-                  message && (<Message message={message} className="alert alert-success"/>)
+                  message && (<Message message={message} className="alert alert-danger"/>)
               }
             </div>
           </div>
