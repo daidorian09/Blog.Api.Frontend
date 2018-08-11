@@ -1,0 +1,7 @@
+export const POST_TYPES = Object.freeze({
+    GET_MY_POSTS : 'GET_MY_POSTS',
+    POST_LOADING : 'POST_LOADING',
+    GET_POSTS : 'GET_POSTS',
+    GET_POST : 'GET_POST',
+    CREATE_OR_UPDATE_POST : 'CREATE_OR_UPDATE_POST'
+})
